@@ -1,0 +1,79 @@
+body {
+	background-color: #f2f2f2;
+	font-family: 'Roboto';
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+	background-color: #FFF;
+	padding: 10px 0;
+    border: 1px solid #E5E5E5;
+}
+
+.cabecalhoPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+}
+
+.cabecalhoPrincipal-logo {
+	font-weight: bold;
+	font-size: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .container {
+    padding: 20px;
+	margin: 20px auto;
+    width: 730px;
+    height: 280px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.stores .container {
+    align-content: center;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+}
+
+.cta .button {
+    background-color: #ff5b00;
+    border-radius: 50px;
+    font-weight: bold;
+	font-size: 1em;
+    margin: 20px auto;
+    display: flex;
+    width: 350px;
+    height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    /*font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 21px;
+    padding: 20px;*/
+    
+}
+
+.cta .button p {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    
+}
